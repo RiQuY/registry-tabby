@@ -1,10 +1,10 @@
 [
   {
+    "name": "StarCoder-1B",
+    "provider_url": "https://huggingface.co/bigcode/starcoderbase-1b",
     "license_name": "BigCode-OpenRAIL-M",
     "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "name": "StarCoder-1B",
-    "provider_url": "https://huggingface.co/bigcode/starcoderbase-1b",
     "urls": [
       "https://huggingface.co/TabbyML/models/resolve/main/starcoderbase-1B.Q8_0.gguf",
       "https://modelscope.cn/api/v1/models/TabbyML/StarCoder-1B/repo?FilePath=ggml/q8_0.v2.gguf"
@@ -12,11 +12,11 @@
     "sha256": "1bb6441486d102db03dac30c82d6b1029ee4f9f5d73f27444fa58cbfcd7cfa0f"
   },
   {
+    "name": "StarCoder-3B",
+    "provider_url": "https://huggingface.co/bigcode/starcoderbase-3b",
     "license_name": "BigCode-OpenRAIL-M",
     "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "name": "StarCoder-3B",
-    "provider_url": "https://huggingface.co/bigcode/starcoderbase-3b",
     "urls": [
       "https://huggingface.co/TabbyML/models/resolve/main/starcoderbase-3B.Q8_0.gguf",
       "https://modelscope.cn/api/v1/models/TabbyML/StarCoder-3B/repo?FilePath=ggml/q8_0.v2.gguf"
@@ -24,11 +24,11 @@
     "sha256": "9798b7cba84ade7c69ff9f033d60c954e16b18f4d01829993b5fe7e33a49ba81"
   },
   {
+    "name": "StarCoder-7B",
+    "provider_url": "https://huggingface.co/bigcode/starcoderbase-7b",
     "license_name": "BigCode-OpenRAIL-M",
     "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "name": "StarCoder-7B",
-    "provider_url": "https://huggingface.co/bigcode/starcoderbase-7b",
     "urls": [
       "https://huggingface.co/TabbyML/models/resolve/main/starcoderbase-7B.Q8_0.gguf",
       "https://modelscope.cn/api/v1/models/TabbyML/StarCoder-7B/repo?FilePath=ggml/q8_0.v2.gguf"
@@ -36,44 +36,44 @@
     "sha256": "33dfcc7e216f1a072b4e16cd3bb19a0e55f5874ed319416435c8fc99216b8bfa"
   },
   {
+    "name": "StarCoder2-3B",
+    "provider_url": "https://huggingface.co/bigcode/starcoder2-3b",
     "license_name": "BigCode-OpenRAIL-M",
     "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "name": "StarCoder2-3B",
-    "provider_url": "https://huggingface.co/bigcode/starcoder2-3b",
     "urls": [
       "https://huggingface.co/nold/starcoder2-3b-GGUF/resolve/main/starcoder2-3b_Q8_0.gguf"
     ],
     "sha256": "0499b8d046c56934c9741fd00c6206a5f7ca0eb42b59304ab7f4a20cd2f28ebf"
   },
   {
+    "name": "StarCoder2-7B",
+    "provider_url": "https://huggingface.co/bigcode/starcoder2-7b",
     "license_name": "BigCode-OpenRAIL-M",
     "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "name": "StarCoder2-7B",
-    "provider_url": "https://huggingface.co/bigcode/starcoder2-7b",
     "urls": [
       "https://huggingface.co/nold/starcoder2-7b-GGUF/resolve/main/starcoder2-7b_Q8_0.gguf"
     ],
     "sha256": "72a8a59486cdcc8549e5a17a5c5ec66b6ce5db71a9408a2800985791a40fbff0"
   },
   {
+    "name": "CodeLlama-7B",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-hf",
     "license_name": "Llama 2",
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
-    "name": "CodeLlama-7B",
-    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-hf",
     "urls": [
       "https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/resolve/main/codellama-7b.Q8_0.gguf"
     ],
     "sha256": "a4eaffa534306e0fc6be5a14cb7db02010546e21fefc32794f000c9b26822db3"
   },
   {
+    "name": "CodeLlama-13B",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-13b-hf",
     "license_name": "Llama 2",
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
-    "name": "CodeLlama-13B",
-    "provider_url": "https://huggingface.co/codellama/CodeLlama-13b-hf",
     "urls": [
       "https://huggingface.co/TheBloke/CodeLlama-13B-GGUF/resolve/main/codellama-13b.Q8_0.gguf"
     ],
@@ -92,9 +92,9 @@
     "sha256": "9397dda06b86612682ec019b347d78eb4ad9ce8efeefe1366ff5483359ed8c07"
   },
   {
+    "name": "Mistral-7B",
     "license_name": "Apache 2.0",
     "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "Mistral-7B",
     "provider_url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
     "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
     "urls": [
@@ -103,10 +103,10 @@
     "sha256": "ab634d1d552dc60533e486cbcc73ad9b01358994dabf2453230e7fcd77308dc8"
   },
   {
+    "name": "DeepseekCoder-1.3B",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
-    "name": "DeepseekCoder-1.3B",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base",
     "urls": [
       "https://huggingface.co/TheBloke/deepseek-coder-1.3b-base-GGUF/resolve/main/deepseek-coder-1.3b-base.Q8_0.gguf"
@@ -114,14 +114,25 @@
     "sha256": "9fcdcb283ef5b1d80ec7365b307c1ceab0c0f8ea079b49969f7febc06a11bccd"
   },
   {
+    "name": "DeepseekCoder-6.7B",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
-    "name": "DeepseekCoder-6.7B",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
     "urls": [
       "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q8_0.gguf"
     ],
     "sha256": "a2f82242ac5e465037cbf1ed754f04f0be044ee196e1589905f9e4dcd0e6559d"
+  },
+  {
+    "name": "DeepseekCoder-6.7B-Q5_K_M",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_M.gguf"
+    ],
+    "sha256": "de874d119b3a8e6e7d5ca066cc8e8c0038196c9b3524a50ed2c967a1bcb641b9"
   }
 ]
